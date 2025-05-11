@@ -37,8 +37,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Playing 2.0.5", "Playing 2.0.5"];
-const statusTypes = [ 'dnd', 'dnd'];
+const statusMessages = ["Playing 3.0.0", "Playing 3.0.0"];
+const statusTypes = [ 'online', 'online'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
